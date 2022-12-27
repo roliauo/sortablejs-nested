@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  user-select: none;
+  padding: .5rem;
+  margin: .5rem;
+  text-align: left;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  // width: auto;
+  // cursor: grab;
+}
+
+.container {
+  margin: .5rem;
+  // border: 1px solid #ccc;
+}
+
+.nested {
+  margin-left: 3rem;
+  // background-color: #ccc;
+}
+
+.handle {
+  margin-right: .5rem;
+  cursor: grab;
+}
